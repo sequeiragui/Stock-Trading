@@ -10,10 +10,10 @@ This project explores whether machine learning models can predict weekly S&P 500
 
 It compares several architectures:
 
-- Linear Regression** (baseline)
+- Linear Regression (baseline)
 - LSTM
 - Transformer Encoder
-- MMixture of Experts (MoE) combining LSTM, Transformer, and Kalman expert
+- Mixture of Experts (MoE) combining LSTM, Transformer, and Kalman expert
 - Learnable Kalman Filter (neural-augmented)
 
 The models are evaluated both on:
